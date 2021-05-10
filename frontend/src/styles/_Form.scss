@@ -1,0 +1,47 @@
+.form {
+    display: grid;
+    gap: $spacing;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: $spacing;
+
+    &__selector {
+        outline: 0;
+    }
+
+    &__options {
+        grid-column: span 2;
+    }
+
+    &__title {
+        align-items: flex-end;
+        display: flex;
+        font-size: $extra-large;
+        justify-content: end;
+    }
+
+    &__list {
+        border: 1px solid $lightgrey;
+        grid-column: span 2;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+
+    &__submit {
+        &-button {
+            grid-column: span 2;
+            margin: 0 auto;
+
+            button {
+                background-color: $blue;
+                border: 0;
+                color: white;
+                cursor: pointer;
+                font-weight: 700;
+                padding: $spacing/2 $spacing*2;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.receipt {
+    padding: $spacing;
+
+    &__header {
+        font-size: $extra-large;
+        margin-bottom: $spacing;
+    }
+
+    &__sub-title {
+        font-size: $large;
+    }
+
+    &__bet {
+        &-item {
+            display: flex;
+            margin: $spacing;
+
+            div {
+                margin-right: $spacing;
+
+                &:first-child {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    &__total {
+        font-size: $large;
+        margin-top: $spacing;
+    }
+}

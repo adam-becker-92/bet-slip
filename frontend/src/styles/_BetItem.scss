@@ -1,0 +1,28 @@
+.bet {
+    background-color: $lightgrey;
+    display: flex;
+    justify-content: space-between;
+    margin: $spacing;
+    padding: $spacing;
+
+    &__name {
+        font-size: $medium;
+        font-weight: 700;
+        margin-bottom: $spacing;
+    }
+
+    &__input {
+        align-self: flex-end;
+
+        &-label {
+            font-size: $medium;
+            font-weight: 700;
+            margin-bottom: $spacing;
+            text-decoration: underline;
+        }
+
+        &-field {
+            border: 0;
+        }
+    }
+}

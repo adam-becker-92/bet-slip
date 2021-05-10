@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+//spacing
+$spacing: 16px;
+
+//font-size
+$small: 8px;
+$medium: 16px;
+$large: 24px;
+$extra-large: 32px;
+
+//color
+
+$blue: #2684ff;
+$lightgrey: #f0f6ff;
+
+@import 'Betslip';
+@import 'Form';
+@import 'BetItem';
+@import 'Receipt';
